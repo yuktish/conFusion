@@ -5,6 +5,15 @@
 
 }
 
+.row-containus{
+
+	margin: 0px auto;
+	padding: 50px 0px 50px 0px;
+	border: bottom ridge;
+	min-height: 200px;
+
+}
+
 .row-container{
 
 	margin: 0px auto;
@@ -36,4 +45,15 @@ address{
 	font-size: 80%;
 	margin: 0px;
 	color: #0f0f0f;
+}
+
+body{
+
+	padding: 50px 0px 0px 0px;
+	z-index: 0;
+}
+
+.navbar-dark{
+
+	background-color: #512DA8;
 }
