@@ -12,7 +12,7 @@ $carousel-item-height: 300px;
 	padding:$pad-up-dn $pad-left-right;
 }
 .row-header{
-    @include zero-margin(0px,0px);
+    @include zero-margin(0px,auto);
 }
 
 .row-content {
@@ -28,7 +28,7 @@ $carousel-item-height: 300px;
 
 .jumbotron {
     @include zero-margin(70px,30px);
-    background: $background-light ;
+    background-color: $background-light ;
     color:floralwhite;
 }
 
@@ -54,7 +54,7 @@ body{
     padding: 10px;
 }
 .carousel {
-    background:$background-dark;
+    background-color:$background-dark;
 
     .carousel-item {
         height: $carousel-item-height;
@@ -68,7 +68,23 @@ body{
 }
 
 #carouselButton {
-    right:0px;
+    
     position: absolute;
+    right:0px;
     bottom: 0px;
+}
+
+.modal-header{
+    background-color: $background-dark;
+    .close{
+        background: floralwhite;
+    }
+
+}
+
+.modal-body{
+    background-color: $background-pale;
+    .close{
+        background: floralwhite;
+    }
 }
